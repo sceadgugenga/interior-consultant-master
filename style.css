@@ -12,6 +12,9 @@ body{
     background: var(--main-bg-color);
     font-family: var(--main-font-family);
     color: var(--main-font-color);
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .main-content {
@@ -51,7 +54,7 @@ header {
     justify-content: center;
     background: var(--main-bg-color);
     z-index: 99;
-    /* right: 2vw; */
+    margin-left:-12px;
 }
 
 nav > li {
